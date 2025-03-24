@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav><!-- Same as index.html --></nav>
+    <div class="container">
+        <h2>Edit Profile</h2>
+        <form id="editProfileForm">
+            <textarea id="bio" placeholder="Add your bio"></textarea>
+            <label>Status: 
+                <input type="radio" name="status" value="online" checked> Online 🟢
+                <input type="radio" name="status" value="offline"> Offline 🔴
+            </label>
+            <button type="submit">Save</button>
+            <button type="button" id="deleteAccount">Delete Account</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
